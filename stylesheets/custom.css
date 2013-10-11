@@ -1,0 +1,85 @@
+#bg { position: fixed; top: 0; left: 0; }
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+
+#dashboard-container {
+	background-color:#EEE;
+	background:url(../images/bg-eee.jpg) top repeat #EEE;
+	position:relative;
+	padding-top:20px;
+	border-top:1px solid #DDD;
+}
+
+#intro-container {
+	vertical-align:bottom;}
+	
+#intro-content-wrap {
+}	
+
+
+
+
+#clock {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin:0;
+	background: url(../images/clockface.jpg);
+	list-style: none;
+	}
+
+#sec, #min, #hour {
+	position: absolute;
+	width: 10px;
+	height: 200px;
+	top: 0px;
+	left: 97px;
+	}
+
+#sec {
+	background: url(../images/sechand.png);
+	z-index: 3;
+	}
+   
+#min {
+	background: url(../images/minhand.png);
+	z-index: 2;
+	}
+   
+#hour {
+	background: url(../images/hourhand.png);
+	z-index: 1;
+	}
+	
+.widget-trasparent {
+	opacity:0.9;}	
+	
+	
+#dayofweek {
+	width:200px;
+	padding:50px 0 5px 0;
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight:300px;
+	color:#aaa;
+	font-size:24px;}
+	
+#time {
+	width:200px;
+	padding:0;
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight:300px;
+	color:#aaa;
+	font-size:20px;}	
+		
+	
+#widget-clock {
+	width:400px;}	
+	
+#welcome {
+	font-family: 'Quicksand', sans-serif;
+	font-weight:900;
+	color:#FFF;
+	text-shadow:#666;
+	font-size:50px;}	

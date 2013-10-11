@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <title>Area Agenti</title>
+    
+    
+	
+    
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" media="all" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <link href="stylesheets/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/font-awesome.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/se7en-font.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/isotope.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/jquery.fancybox.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/fullcalendar.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/wizard.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/select2.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/morris.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/datatables.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/pygments.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/color/green.css" media="all" rel="alternate stylesheet" title="green-theme" type="text/css" />
+    <link href="stylesheets/color/orange.css" media="all" rel="alternate stylesheet" title="orange-theme" type="text/css" />
+    <link href="stylesheets/color/magenta.css" media="all" rel="alternate stylesheet" title="magenta-theme" type="text/css" />
+    <link href="stylesheets/color/gray.css" media="all" rel="alternate stylesheet" title="gray-theme" type="text/css" />
+    
+    <link rel="stylesheet" type="text/css" href="stylesheets/xcharts.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-select.css">
+
+    
+    <link href="stylesheets/custom.css" media="all" rel="stylesheet" type="text/css" />
+    
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script>
+    <script src="javascripts/application.js" type="text/javascript"></script>
+    <script src="javascripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="javascripts/raphael.min.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.mousewheel.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.vmap.min.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.vmap.sampledata.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.vmap.world.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.bootstrap.wizard.js" type="text/javascript"></script>
+    <script src="javascripts/fullcalendar.min.js" type="text/javascript"></script>
+    <script src="javascripts/gcal.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.easy-pie-chart.js" type="text/javascript"></script>
+    <script src="javascripts/excanvas.min.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.isotope.min.js" type="text/javascript"></script>
+    <script src="javascripts/masonry.min.js" type="text/javascript"></script>
+    <script src="javascripts/modernizr.custom.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="javascripts/select2.js" type="text/javascript"></script>
+    <script src="javascripts/styleswitcher.js" type="text/javascript"></script>
+    <script src="javascripts/wysiwyg.js" type="text/javascript"></script>
+    <script src="javascripts/morris.min.js" type="text/javascript"></script>
+    <script src="javascripts/skycons.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.sparkline.js" type="text/javascript"></script>
+    <script src="javascripts/respond.js" type="text/javascript"></script>
+
+    
+	<script src="javascripts/jquery.simpleWeather.js"></script>
+    <script src="javascripts/weather.js"></script>
+    <script src="javascripts/bootstrap-select.js"></script>
+    
+    <script src="highcharts/js/highcharts.js"></script>
+    <script src="highcharts/js/modules/exporting.js"></script>
+	<script src="highcharts/js/regression.plugin.js"></script>
+    <script src="highcharts/js/themes/lyvyo.js"></script>
+
+	<script src="javascripts/endless_scroll.js"></script>
+    
+    <script src="javascripts/main.js" type="text/javascript"></script>
+    <script src="javascripts/charts.js"></script>
+
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    
+  </head>
+  <body>
+  
+<!-- Preloader 
+<div id="preloader">
+	<div id="preLogo">&nbsp;</div>
+	<div id="status">&nbsp;</div>
+</div>  
+  -->
+ <!-- <img src="images/ufficio.jpg" id="bg" alt="">
+  
+
+    <!-- Navigation -->
+    <div class="navbar navbar-fixed-top scroll-hide">
+      <div class="container-fluid top-bar">
+        <div class="pull-right">
+          <ul class="nav navbar-nav pull-right">
+            <li class="dropdown notifications hidden-xs">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span aria-hidden="true" class="se7en-flag"></span>
+                <div class="sr-only">
+                  Notifications
+                </div>
+                <p class="counter">
+                  4
+                </p>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">
+                  <div class="notifications label label-info">
+                    New
+                  </div>
+                  New user added: Jane Smith</a>
+                </li>
+                <li><a href="#">
+                  <div class="notifications label label-info">
+                    New
+                  </div>
+                  Sales targets available</a>
+                </li>
+                <li><a href="#">
+                  <div class="notifications label label-info">
+                    New
+                  </div>
+                  New performance metric added</a>
+                </li>
+                <li><a href="#">
+                  <div class="notifications label label-info">
+                    New
+                  </div>
+                  New growth data available</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown messages hidden-xs">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span aria-hidden="true" class="se7en-envelope"></span>
+                <div class="sr-only">
+                  Messages
+                </div>
+                <p class="counter">
+                  3
+                </p>
+              </a>
+              <ul class="dropdown-menu messages">
+                <li><a href="#">
+                  <img width="34" height="34" src="images/avatar-male2.png" />Could we meet today? I wanted...</a>
+                </li>
+                <li><a href="#">
+                  <img width="34" height="34" src="images/avatar-female.png" />Important data needs your analysis...</a>
+                </li>
+                <li><a href="#">
+                  <img width="34" height="34" src="images/avatar-male2.png" />Buy Se7en today, it's a great theme...</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown settings hidden-xs">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span aria-hidden="true" class="se7en-gear"></span>
+                <div class="sr-only">
+                  Settings
+                </div>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="settings-link blue" href="javascript:chooseStyle('none', 30)"><span></span>Blue</a>
+                </li>
+                <li>
+                  <a class="settings-link green" href="javascript:chooseStyle('green-theme', 30)"><span></span>Green</a>
+                </li>
+                <li>
+                  <a class="settings-link orange" href="javascript:chooseStyle('orange-theme', 30)"><span></span>Orange</a>
+                </li>
+                <li>
+                  <a class="settings-link magenta" href="javascript:chooseStyle('magenta-theme', 30)"><span></span>Magenta</a>
+                </li>
+                <li>
+                  <a class="settings-link gray" href="javascript:chooseStyle('gray-theme', 30)"><span></span>Gray</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown user hidden-xs"><a data-toggle="dropdown" class="dropdown-toggle" href="#">
+              <img width="34" height="34" src="images/avatar-male.jpg" />John Smith<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">
+                  <i class="icon-user"></i>My Account</a>
+                </li>
+                <li><a href="#">
+                  <i class="icon-gear"></i>Account Settings</a>
+                </li>
+                <li><a href="./">
+                  <i class="icon-signout"></i>Logout</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <button class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="logo" href="index.html">se7en</a>
+        <form class="navbar-form form-inline col-lg-2 hidden-xs">
+          <input class="form-control" placeholder="Search" type="text">
+        </form>
+      </div>
+      <div class="container-fluid main-nav clearfix">
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="dashboard">
+              <a class="current" href="index.html">
+              <span aria-hidden="true" class="icon-home icon-2x"></span>Dashboard</a>
+            </li>
+            <li class="dashboard"><a href="social.html">
+              <span aria-hidden="true" class="icon-group icon-2x"></span>Clienti</a>
+            </li>
+            <li class="dropdown ui"><a data-toggle="dropdown" href="#">
+              <span aria-hidden="true" class="icon-briefcase icon-2x"></span>Agenti</a>
+            </li>
+            
+             <li class="forms"><a href="forms.html">
+              <span aria-hidden="true" class="icon-signal icon-2x"></span>Analitica</a>
+            </li>       
+            
+            <li class="forms"><a href="forms.html">
+              <span aria-hidden="true" class="icon-pencil icon-2x"></span>Cancelleria</a>
+            </li>
+            <li class="tables"><a href="tables.html">
+              <span aria-hidden="true" class="icon-puzzle-piece icon-2x"></span>Promozionale</a>
+            </li>
+            <li class="pages"><a href="charts.html">
+              <span aria-hidden="true" class="icon-truck icon-2x"></span>Mobili</a>
+            </li>
+            <li class="dropdown ui"><a data-toggle="dropdown" href="#">
+              <span aria-hidden="true" class="icon-lightbulb icon-2x"></span>Marketing</a>
+            </li>
+            <li class="gallery"><a href="gallery.html">
+              <span aria-hidden="true" class="icon-comments-alt icon-2x"></span>Comunicazioni</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Navigation -->
+    
+    
+
+<div class="container-fluid main-nav clearfix" id="dashboard-intro">
+
+  
+    <div class="container-fluid main-content" id="intro-content-wrap">
+     <!--
+      <!-- Sidebar 
+      <div class="row">
+      	<div class="col-lg-12">
+                
+            <div class="col-lg-7 welcome">
+            
+            Benvenuto, John Smith!
+            
+            </div>    
+                
+            <div class="widget-sidebar col-lg-5">
+            
+          		<div class="widget-row">
+                    <div style="width:200px; height:200px;">                    
+                        <div id="dayofweek" class=""></div>
+                        <div id="time" class=""></div>
+                        </div>
+                    <div style="width:200px; margin:-200px 0 0 200px;"> 
+                            <ul id="clock">	
+                            <li id="sec"></li>
+                            <li id="hour"></li>
+                            <li id="min"></li>
+                            </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+      </div>	
+ 
+      
+      
+
+      <!-- Statistics -->
+      <div class="row">
+        <div class="col-lg-12 widget-trasparent">
+          <div class="widget-container stats-container">
+          
+            <div class="col-md-3 col-sm-6">
+            <div class="centered">
+           <div class="icon-thumbs-up icon-2x top-stat-icon"></div>
+              <div class="number"> 
+                26.730<small>,00 &euro;</small>
+              </div>
+              <div class="text">
+                Fatturato Mese
+              </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+            <div class="centered">
+            <div class="icon-rocket icon-2x top-stat-icon"></div>
+              <div class="number">
+                4.520<small>,00 &euro;</small>
+              </div>
+              <div class="text">
+                Provvigioni Mese
+              </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+            <div class="centered">
+            <div class="icon-male icon-2x top-stat-icon"></div>
+              <div class="number">
+                6<small> ( Nuovi:2)</small>
+              </div>
+              <div class="text">
+                Clienti Gestiti
+              </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+            <div class="centered">
+            <div class="icon-meh icon-2x top-stat-icon" ></div>
+              <div class="number">
+                841<small>,00 &euro;</small>
+              </div>
+              <div class="text">
+                Provvigioni Sospese
+              </div>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- End Statistics -->
+      
+      
+      
+      
+      
+      <div class="row">
+        <!-- Weather -->
+        <div class="col-md-8 widget-trasparent">
+          <div class="widget-container weather">
+            <div class="widget-content padded">
+              <div class="row text-center">
+              
+                <div class="col-sm-6 col-md-6 col-lg-4 today" id="">
+
+                 
+                  
+<div id="div-select-provincia-tempo" style="margin-top:-10px;">
+
+<select id="select-provincia-tempo" class="select2able select2" style="width:200px;">      
+                                        
+<optgroup label="ABRUZZO">
+    <option value="716751">L'Aquila</option>
+    <option value="724792">Teramo</option>
+    <option value="720194">Pescara</option>
+    <option value="714007">Chieti</option>
+</optgroup>
+<optgroup label="BASILICATA">
+    <option value="721153">Potenza</option>
+    <option value="718113">Matera</option>
+</optgroup>
+<optgroup label="CALABRIA">
+    <option value="714748">Cosenza</option>
+    <option value="713572">Catanzaro</option>
+    <option value="721567">Reggio di Calabria</option>
+    <option value="714885">Crotone</option>
+    <option value="725863">Vibo Valentia</option>
+</optgroup>
+<optgroup label="CAMPANIA">
+    <option value="713081">Caserta</option>
+    <option value="710882">Benevento</option>
+    <option value="719258">Napoli</option>
+    <option value="710448">Avellino</option>
+    <option value="722232">Salerno</option>
+</optgroup>
+<optgroup label="EMILIA-ROMAGNA">
+    <option value="720279">Piacenza</option>
+    <option value="719975">Parma</option>
+    <option value="721568">Reggio nell'Emilia</option>
+    <option value="718431">Modena</option>
+    <option value="711080">Bologna</option>
+    <option value="715399">Ferrara</option>
+    <option value="721535">Ravenna</option>
+    <option value="715664">Forlì-Cesena</option>
+    <option value="721682">Rimini</option>
+</optgroup>
+<optgroup label="FRIULI-VENEZIA GIULIA">
+    <option value="725383">Udine</option>
+    <option value="716283">Gorizia</option>
+    <option value="725300">Trieste</option>
+    <option value="721045">Pordenone</option>
+</optgroup>
+<optgroup label="LAZIO">
+    <option value="726273">Viterbo</option>
+    <option value="721652">Rieti</option>
+    <option value="721943">Roma</option>
+    <option value="717055">Latina</option>
+    <option value="715845">Frosinone</option>
+</optgroup>
+<optgroup label="LIGURIA">
+    <option value="716647">Imperia</option>
+    <option value="723812">Savona</option>
+    <option value="716085">Genova</option>
+    <option value="716908">La Spezia</option>
+</optgroup>
+<optgroup label="LOMBARDIA">
+    <option value="725677">Varese</option>
+    <option value="12844782">Como</option>
+    <option value="724327">Sondrio</option>
+    <option value="718345">Milano</option>
+    <option value="710893">Bergamo</option>
+    <option value="711410">Brescia</option>
+    <option value="720060">Pavia</option>
+    <option value="714820">Cremona</option>
+    <option value="717803">Mantova</option>
+    <option value="717167">Lecco</option>
+    <option value="717372">Lodi</option>
+    <option value="719063">Monza e della Brianza</option>
+</optgroup>
+<optgroup label="MARCHE">
+    <option value="720190">Pesaro e Urbino</option>
+    <option value="710129">Ancona</option>
+    <option value="717572">Macerata</option>
+    <option value="718114">Ascoli Piceno</option>
+    <option value="715393">Fermo</option>
+</optgroup>
+<optgroup label="MOLISE">
+    <option value="711892">Campobasso</option>
+    <option value="716689">Isernia</option>
+</optgroup>
+<optgroup label="PIEMONTE">
+    <option value="725003">Torino</option>
+    <option value="725762">Vercelli</option>
+    <option value="719400">Novara</option>
+    <option value="714917">Cuneo</option>
+    <option value="710404">Asti</option>
+    <option value="709961">Alessandria</option>
+    <option value="710984">Biella</option>
+    <option value="15022642">Verbano-Cusio-Ossola</option>
+</optgroup>
+<optgroup label="PUGLIA">
+    <option value="715550">Foggia</option>
+    <option value="710722">Bari</option>
+    <option value="724706">Taranto</option>
+    <option value="711438">Brindisi</option>
+    <option value="717162">Lecce</option>
+    <option value="710729">Barletta-Andria-Trani
+</optgroup>
+<optgroup label="SARDEGNA">
+    <option value="723757">Sassari</option>
+    <option value="719433">Nuoro</option>
+    <option value="711665">Cagliari</option>
+    <option value="719586">Oristano</option>
+    <option value="719475">Olbia-Tempio</option>
+    <option value="28301715">Ogliastra</option>
+    <option value="28301714">Medio Campidano</option>
+    <option value="28301713">Carbonia-Iglesias</option>
+</optgroup>
+<optgroup label="SICILIA">
+    <option value="725194">Trapani</option>
+    <option value="719846">Palermo</option>
+    <option value="718268">Messina</option>
+    <option value="709859">Agrigento</option>
+    <option value="711749">Caltanissetta</option>
+    <option value="715168">Enna</option>
+    <option value="713571">Catania</option>
+    <option value="721485">Ragusa</option>
+    <option value="724236">Siracusa</option>
+</optgroup>
+<optgroup label="TOSCANA">
+    <option value="12591868">Massa-Carrara</option>
+    <option value="717458">Lucca</option>
+    <option value="720644">Pistoia</option>
+    <option selected="selected" value="715496">Firenze</option>
+    <option value="717348">Livorno</option>
+    <option value="720627">Pisa</option>
+    <option value="710284">Arezzo</option>
+    <option value="724196">Siena</option>
+    <option value="716428">Grosseto</option>
+    <option value="15000195">Prato</option>
+</optgroup>
+<optgroup label="TRENTINO-ALTO ADIGE">
+    <option value="711089">Bolzano</option>
+    <option value="725257">Trento</option>
+</optgroup>
+<optgroup label="UMBRIA">
+    <option value="710283">Perugia</option>
+    <option value="724823">Terni</option>
+</optgroup>
+<optgroup label="VALLE D AOSTA">
+	<option value="710203">Aosta</option>
+</optgroup>
+<optgroup label="VENETO">
+    <option value="715400">Verona</option>
+    <option value="725875">Vicenza</option>
+    <option value="710848">Belluno</option>
+    <option value="725287">Treviso</option>
+    <option value="725746">Venezia</option>
+    <option value="719751">Padova</option>
+    <option value="722112">Rovigo</option>
+</optgroup>                                      
+                                        
+</select>                   
+                                        
+</div>
+
+ <div id="weathertest"></div>
+
+                </div>
+                
+                <div class="col-sm-2 hidden-xs" id="domani1">
+                </div>
+                
+                <div class="col-sm-2 hidden-xs " id="domani2">
+                </div>
+                
+                <div class="col-sm-2 hidden-xs " id="domani3">
+                </div>
+                
+                <div class="col-sm-2 hidden-md hidden-sm hidden-xs " id="domani4">
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end Weather -->
+        
+        
+        
+        
+        <!-- Bar Graph -->
+        <div class="col-md-4 widget-trasparent">
+          <div class="widget-container small">
+
+                <div id="s1" class="is">
+                    <a href="" ><img  src="img/1.jpg" style="padding-right:5px;" /></a>
+                    <a href="#"><img  src="img/2.jpg"  style="padding-right:5px;"/></a>
+                    <a href="" ><img  src="img/3.jpg" style="padding-right:5px;"/></a>
+                    <a href="#"><img  src="img/4.jpg" style="padding-right:5px;"/></a>
+                    <a href="" ><img  src="img/5.jpg" style="padding-right:5px;"/></a>
+                    <a href="#"><img  src="img/6.jpg" style="padding-right:5px;"/></a>
+                    <a href="" ><img  src="img/7.jpg" style="padding-right:5px;"/></a>
+
+                </div>
+
+          </div>
+        </div>
+        <!-- End Bar Graph -->
+        
+<script type="text/javascript">
+    $(window).load(function () {
+        $("#s1").endlessScroll({ width: '100%', height: '200px', steps: -2, speed: 40, mousestop: true });
+    });
+</script>        
+        
+      
+      </div> <!-- fine wrapper intro -->
+      
+      
+</div> <!-- fine container intro -->
+
+
+
+<div class="container-fluid main-content" id="dashboard-container">  
+      <div class="row">
+      
+
+<div class="col-lg-4">
+          <div class="widget-container fluid-height riassunto-container">
+          
+          <table style="height:80px;"> 
+          	<tr>
+            	<td >
+                <div style="padding:8px; vertical-align:top;">
+                    <h3 style='font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;font-size:16px;color:#09ADDC;font:bold 22px "Quicksand", sans-serif;fill:#09ADDC; line-height:20px; margin-bottom:6px; padding-bottom:0;'>Riepilogo Personale</h3>
+                    
+                    <span class="subtitle">Clicca sulle voci sotto per visalizzare i grafici dettagliati della tua situazione lavorativa
+                    </span>
+                </div>
+                </td>
+            </tr>
+          </table>
+          
+            <!-- Table -->
+            <table class="table table-filters">
+              <tbody>
+                <tr>
+                  <td class="filter-category blue">
+                    <div class="arrow-left"></div>
+                    <i class="icon-thumbs-up"></i>
+                  </td>
+                  <td class="nome-chart">
+                    <span class="tabMenu"><a href="#tabFatturato" data-toggle="tab">Fatturato Annuo</a></li>
+                  </td>
+                  <td style="text-align:right; padding-left:0; padding-right:4px; font-size:14px;">
+                    &euro; 223.793
+                                      </td>
+                  <td   class="hide-mobile hidden-xs" style="text-align:right;">
+                    <div class="inlinesparkline">
+                    		
+                    </div>
+                  </td>
+                  <td  style="text-align:right;  padding-left:0;">
+                    <span class="menu-perc success">
+                      +86%
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="filter-category green">
+                    <div class="arrow-left"></div>
+                    <i class="icon-rocket"></i>
+                  </td>
+                  <td class="nome-chart">
+                    <span class="tabMenu"><a href="#tabProvvigioni" data-toggle="tab">Provvigionale Annuo</a></li>
+                  </td>
+                  <td style="text-align:right; padding-left:0; padding-right:4px; font-size:14px;">
+                    &euro; 33,563
+                  </td>
+                  <td   class="hide-mobile hidden-xs" style="text-align:right;">
+                    <div class="inlinesparkline2">
+                    		
+                    </div>
+                  </td>
+                  <td  style="text-align:right;  padding-left:0;">
+                    <span class="menu-perc success">
+                      +98%
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="filter-category blue">
+                    <div class="arrow-left"></div>
+                    <i class="icon-signin"></i>
+                  </td>
+                  <td class="nome-chart">
+                    <span class="tabMenu"><a href="#tabFattMerci" data-toggle="tab">Fatturato Merceologie</a></li>
+                  </td>
+                  <td style="text-align:right; padding-left:0; padding-right:4px; font-size:14px;">
+                    <small>Tipografia:</small><br> &euro; 95,478
+                  </td>
+                  <td   class="hide-mobile hidden-xs" style="text-align:right;">
+                    <div class="barsparkline">
+                  			  
+                    </div>
+                  </td>
+                  <td  style="text-align:right;  padding-left:0;">
+                    <span class="menu-perc danger">
+                      -15%
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="filter-category green">
+                    <div class="arrow-left"></div>
+                    <i class="icon-signout"></i>
+                  </td>
+                  <td class="nome-chart">
+                    <span class="tabMenu"><a href="#tabProvvMerci" data-toggle="tab">Provvigioni Merceologie</a></li>
+                  </td>
+                  <td style="text-align:right; padding-left:0; padding-right:4px; font-size:14px;">
+                    <small>Promozionale:</small><br>&euro; 10,995
+                  </td>
+                  <td   class="hide-mobile hidden-xs" style="text-align:right;">
+                    <div class="barsparkline">
+							
+                    </div>
+                  </td>
+                  <td  style="text-align:right;  padding-left:0;">
+                    <span class="menu-perc success">
+                      +5%
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="filter-category blue">
+                    <div class="arrow-left"></div>
+                    <i class="icon-edit"></i>
+                  </td>
+                  <td class="nome-chart">
+                    <span class="tabMenu"><a href="#tabFattCanc" data-toggle="tab">Fatturato Cancelleria</a></li>
+                  </td>
+                  <td style="text-align:right; padding-left:0; padding-right:4px; font-size:14px;">
+                    $ 64,888
+                  </td>
+                  <td  class="hide-mobile hidden-xs"  style="text-align:right;">
+                    <div class="cancBarsparkline">
+                       
+                    </div>
+                  </td>
+                  <td  style="text-align:right;  padding-left:0;">
+                    <span class="menu-perc success">
+                      +26%
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="filter-category green">
+                    <div class="arrow-left"></div>
+                    <i class="icon-pencil"></i>
+                  </td>
+                  <td class="nome-chart">
+                    <span class="tabMenu"><a href="#tabProvvCanc" data-toggle="tab">Provvigioni Cancelleria</a></li>
+                  </td>
+                  <td style="text-align:right; padding-left:0; padding-right:4px; font-size:14px;">
+                    &euro; 16,488
+                  </td>
+                  <td  class="hide-mobile hidden-xs"  style="text-align:right;">
+                    <div class="cancBarsparkline2">
+					
+                    </div>
+                  </td>
+                  <td  style="text-align:right;  padding-left:0;">
+                    <span class="menu-perc success">
+                      +34%
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="filter-category orange">
+                    <div class="arrow-left"></div>
+                    <i class="icon-male"></i>
+                  </td>
+                  <td class="nome-chart">
+                    <span class="tabMenu"><a href="#tabClienti" data-toggle="tab">Clienti Gestiti</a></li>
+                  </td>
+                  <td style="text-align:right; padding-left:0; padding-right:4px; font-size:14px;">
+                   124
+                  </td>
+                  <td class="hide-mobile hidden-xs"   style="text-align:right;">
+                    <div class="compositebar">
+                    
+                    </div>
+                  </td>
+                  <td  style="text-align:right;  padding-left:0;">
+                    <span class="menu-perc danger">
+                      -2%
+                    </span>
+                  </td>
+                </tr>
+                
+   <tr>
+                  <td class="filter-category red">
+                    <div class="arrow-left"></div>
+                    <i class="icon-euro"></i>
+                  </td>
+                  <td class="nome-chart">
+                    <span class="tabMenu"><a href="#tabIncasso" data-toggle="tab">Incassato e Insoluto</a></li>
+                  </td>
+                  <td style="text-align:right; padding-left:0; padding-right:4px; font-size:14px;">
+                    &euro; 205,890<br>
+                    <span class="danger">&euro; 17,903</span>
+                  </td>
+                  <td class="hide-mobile hidden-xs"   style="text-align:right;">
+                    <div class="stakedsparkline">                    
+                     
+                    </div>
+                  </td>
+                  <td  style="text-align:right; padding-left:0;">
+                    <span class="menu-perc danger">
+                      <small style="vertical-align:text-bottom;">INS: </small> 8%
+                    </span>
+                  </td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+
+<script>
+  window.onresize = function () {
+      if (window.outerWidth >= 400) { doSparkLine();  }
+	  
+	  if (window.outerWidth < 400) {  }
+  };
+</script>
+
+
+		<div class="col-lg-8">
+            <div class="widget-container fluid-height">
+  
+            
+                <div class="tab-content" >
+                  <div class="tab-pane active" id="tabFatturato">
+                        <div class="widget-content padded">
+                          <div id="chart-fatturato" style="min-width: 210px; height: 520px; margin: 0 auto"></div>
+                        </div>
+                  </div>
+                  <div class="tab-pane" id="tabProvvigioni">
+                        <div class="widget-content padded">
+                          <div id="chart-provvigioni" style="min-width: 210px; height: 520px; margin: 0 auto"></div>
+                        </div>
+                  </div>
+                  <div class="tab-pane" id="tabFattMerci">
+                        <div class="widget-content padded">
+                          <div id="chart-merci" style="min-width: 210px; height: 520px; margin: 0 auto"></div>
+                        </div>
+                  </div>
+                  <div class="tab-pane" id="tabProvvMerci">
+                        <div class="widget-content padded">
+                          <div id="chart-merci-provv" style="min-width: 210px; height: 520px; margin: 0 auto"></div>
+                        </div>
+                  </div>
+                  <div class="tab-pane" id="tabFattCanc">
+                        <div class="widget-content padded">
+                          <div id="chart-canc" style="min-width: 210px; height: 520px; margin: 0 auto"></div>
+                        </div>
+                  </div> 
+                  <div class="tab-pane" id="tabProvvCanc">
+                        <div class="widget-content padded">
+                          <div id="chart-canc-provv" style="min-width: 210px; height: 520px; margin: 0 auto"></div>
+                        </div>
+                  </div>
+                  <div class="tab-pane" id="tabClienti">
+                        <div class="widget-content padded">
+                          <div id="chart-clienti" style="min-width: 210px; height: 520px; margin: 0 auto"></div>
+                        </div>
+                  </div>
+                  <div class="tab-pane" id="tabIncasso">
+                        <div class="widget-content padded">
+                          <div id="chart-insoluto" style="min-width: 210px; height: 520px; margin: 0 auto"></div>
+                        </div>
+                  </div>  
+                </div>
+            
+
+
+
+            
+            </div>
+        </div>
+
+      
+      </div>
+      
+      
+      <!--
+<div class="row">
+<!-- Calendar 
+        <div class="col-lg-7">
+          <div class="widget-container">
+            <div class="heading">
+              <i class="icon-calendar"></i>Calendar<i class="icon-plus pull-right"></i><i class="icon-refresh pull-right"></i>
+            </div>
+            <div class="widget-content padded">
+              <div id="calendar"></div>
+            </div>
+          </div>
+        </div>
+        <!-- End Calendar 
+  <!-- Task List 
+        <div class="col-lg-5">
+          <div class="widget-container scrollable list task-widget">
+            <div class="heading">
+              <i class="icon-list"></i>Task list<i class="icon-plus pull-right"></i>
+            </div>
+            <div class="widget-content">
+              <ul>
+                <li>
+                  <label><input checked="checked" class="task-input" type="checkbox"><span class="task-checkbox"></span>
+                    <div class="label label-success pull-right">
+                      Approved
+                    </div>
+                    Distribute latest marketing</label>
+                </li>
+                <li>
+                  <label><input class="task-input" type="checkbox"><span class="task-checkbox"></span>
+                    <div class="label label-success pull-right">
+                      Approved
+                    </div>
+                    Create the latest mockup</label>
+                </li>
+                <li>
+                  <label><input class="task-input" type="checkbox"><span class="task-checkbox"></span>
+                    <div class="label label-warning pull-right">
+                      Pending
+                    </div>
+                    Code the latest features</label>
+                </li>
+                <li>
+                  <label><input checked="checked" class="task-input" type="checkbox"><span class="task-checkbox"></span>
+                    <div class="label label-danger pull-right">
+                      Rejected
+                    </div>
+                    Coffee time</label>
+                </li>
+                <li>
+                  <label><input checked="checked" class="task-input" type="checkbox"><span class="task-checkbox"></span>
+                    <div class="label label-success pull-right">
+                      Approved
+                    </div>
+                    Distribute latest marketing</label>
+                </li>
+                <li>
+                  <label><input class="task-input" type="checkbox"><span class="task-checkbox"></span>
+                    <div class="label label-success pull-right">
+                      Approved
+                    </div>
+                    Pick up lunch</label>
+                </li>
+                <li>
+                  <label><input class="task-input" type="checkbox"><span class="task-checkbox"></span>
+                    <div class="label label-danger pull-right">
+                      Rejected
+                    </div>
+                    Send out e-blast</label>
+                </li>
+                <li>
+                  <label><input class="task-input" type="checkbox"><span class="task-checkbox"></span>
+                    <div class="label label-warning pull-right">
+                      Pending
+                    </div>
+                    Ask for a raise</label>
+                </li>
+                <li>
+                  <label><input class="task-input" type="checkbox"><span class="task-checkbox"></span>
+                    <div class="label label-warning pull-right">
+                      Pending
+                    </div>
+                    Coffe time pt. 2</label>
+                </li>
+                <li>
+                  <label><input class="task-input" type="checkbox"><span class="task-checkbox"></span>
+                    <div class="label label-success pull-right">
+                      Approved
+                    </div>
+                    Bug fixes</label>
+                </li>
+                <li>
+                  <label><input class="task-input" type="checkbox"><span class="task-checkbox"></span>
+                    <div class="label label-success pull-right">
+                      Approved
+                    </div>
+                    Happy hour!!!</label>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End Task List 
+
+</div>
+      -->
+      
+      
+</div>
+
+<script>
+
+$('.tabMenu a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+ 
+$(window).trigger('resize');
+})
+
+
+</script>
+
+<!--
+<div class="container-fluid main-content" id="dashboard-container">  
+      
+      
+      <div class="row">
+
+           
+		<!-- Composite Graph 
+        <div class="col-lg-6">
+          <div class="widget-container">
+                     
+          <!-- <div class="heading">
+              <span class="btn btn-danger">Cumulativo</span> 
+              <span class="btn btn-info">Per Mese</span>
+            
+            <div class="pull-right">
+              <span class="btn btn-info">Tipo Grafico</span>
+          </div>
+            </div>         
+          
+            <div class="widget-content padded">
+              <div id="chart-fatturato" style="min-width: 210px; height: 460px; margin: 0 auto"></div>
+            </div>
+   
+          </div>
+        </div>
+        <!-- end Composite Graph
+            
+
+		<!-- Composite Graph 
+        <div class="col-lg-6">
+          <div class="widget-container">
+            <div class="widget-content padded">
+              <div id="chart-provvigioni" style="min-width: 210px; height: 460px; margin: 0 auto"></div>
+            </div>
+          </div>
+        </div>
+        <!-- end Composite Graph 
+
+
+      </div>
+      
+      
+      <div class="row">
+
+           
+		<!-- Composite Graph 
+        <div class="col-lg-3 col-md-6">
+          <div class="widget-container">        
+            <div class="widget-content padded">
+              <div id="chart-merci" style="min-width: 210px; height: 460px; margin: 0 auto"></div>
+            </div>
+   
+          </div>
+        </div>
+        <!-- end Composite Graph 
+            
+
+		<!-- Composite Graph 
+        <div class="col-lg-3 col-md-6">
+          <div class="widget-container">
+            <div class="widget-content padded">
+              <div id="chart-merci-provv" style="min-width: 210px; height: 460px; margin: 0 auto"></div>
+            </div>
+          </div>
+        </div>
+        <!-- end Composite Graph 
+
+
+		<!-- Composite Graph 
+        <div class="col-lg-3 col-md-6">
+          <div class="widget-container">        
+            <div class="widget-content padded">
+              <div id="chart-canc" style="min-width: 210px; height: 460px; margin: 0 auto"></div>
+            </div>
+   
+          </div>
+        </div>
+        <!-- end Composite Graph -->
+            
+
+		<!-- Composite Graph 
+        <div class="col-lg-3 col-md-6">
+          <div class="widget-container">
+            <div class="widget-content padded">
+              <div id="chart-canc-provv" style="min-width: 210px; height: 460px; margin: 0 auto"></div>
+            </div>
+          </div>
+        </div>
+        <!-- end Composite Graph -
+
+
+
+      </div>
+      
+      
+      
+      <div class="row">
+
+           
+		<!-- Composite Graph 
+        <div class="col-lg-6">
+          <div class="widget-container">
+                     
+          <!-- <div class="heading">
+              <span class="btn btn-danger">Cumulativo</span> 
+              <span class="btn btn-info">Per Mese</span>
+            
+            <div class="pull-right">
+              <span class="btn btn-info">Tipo Grafico</span>
+          </div>
+            </div>         
+          
+            <div class="widget-content padded">
+              <div id="chart-clienti" style="min-width: 210px; height: 460px; margin: 0 auto"></div>
+            </div>
+   
+          </div>
+        </div>
+        <!-- end Composite Graph -->
+            
+
+		<!-- Composite Graph 
+        <div class="col-lg-6">
+          <div class="widget-container">
+            <div class="widget-content padded">
+              <div id="chart-insoluto" style="min-width: 210px; height: 460px; margin: 0 auto"></div>
+            </div>
+          </div>
+        </div>
+        <!-- end Composite Graph 
+
+
+      </div>
+      
+
+      
+</div>
+
+-->
+
+
+
+
+
+
+</div>
+
+
+
+  </body>
+</html>
